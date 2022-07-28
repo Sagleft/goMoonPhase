@@ -8,7 +8,7 @@ Packege MoonPhase allow calculat the phase of Moon, and other related veriables.
 To install the package on your seysetm, run
 
 ```
-go get github.com/IvanMenshykov/MoonPhase
+go get github.com/sagleft/moonphase
 ```
 
 ## Quick Start
@@ -16,7 +16,7 @@ go get github.com/IvanMenshykov/MoonPhase
 ```
 time := time.Date(2007, 10, 1, 24, 0, 0, 0, time.UTC)
 //time := time.Now()
-m := MoonPhase.New(time)
+m := moonphase.New(time)
 ```
 
 ## License
@@ -28,3 +28,4 @@ the contributors acknowledged below.
 
 This package's code and documentation are very closely derived [php-moon-phase](https://github.com/solarissmoke/php-moon-phase)
 PHP class for calculating the phase of the Moon created by Samir Shah.
+Go mod created by Sagleft.
